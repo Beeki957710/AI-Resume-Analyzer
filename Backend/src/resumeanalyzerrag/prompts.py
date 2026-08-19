@@ -1,6 +1,6 @@
 RESUME_ANALYZER_PROMPT = """
 You are an expert ATS (Applicant Tracking System) optimization tool.
-Analyze the following candidate resume context against the provided job description.
+Analyze the provided resume against the job description and return the result strictly as a valid JSON object."
 
 Context from Resume:
 {context}

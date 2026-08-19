@@ -14,7 +14,7 @@ app.add_middleware(
     CORSMiddleware,
     # Allow Vite frontend default ports & wildcard for local dev
     allow_origins=["*"],
-    allow_credentials=False,
+    allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )

@@ -55,7 +55,7 @@ export default function App() {
     formData.append('job_description', jobDescription);
 
     try {
-      const response = await axios.post('http://localhost:8000/api/analyze', formData, {
+      const response = await axios.post('ai-resume-analyzer-production-a27f.up.railway.app', formData, {
         headers: { 'Content-Type': 'multipart/form-data' },
       });
       setResult(response.data);

@@ -13,7 +13,7 @@ app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
     # Allow Vite frontend default ports & wildcard for local dev
-    allow_origins=["https://resumeanalyzerrag.vercel.app/"],
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

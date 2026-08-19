@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'https://ai-resume-analyzer-production-a27f.up.railway.app/api/analyze';
+const API_BASE_URL = 'https://ai-resume-analyzer-production-a27f.up.railway.app';
 
 export const analyzeResume = async (file, jobDescription) => {
   const formData = new FormData();

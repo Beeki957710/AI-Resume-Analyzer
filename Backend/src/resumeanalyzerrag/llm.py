@@ -2,7 +2,7 @@ import os
 from dotenv import load_dotenv
 from langchain_groq import ChatGroq
 from langchain_core.output_parsers import PydanticOutputParser
-from ...schema import ATSAnalysisResult
+from resumeanalyzerrag.schema import ATSAnalysisResult
 
 load_dotenv()
 

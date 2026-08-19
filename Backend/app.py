@@ -1,6 +1,6 @@
 from fastapi import FastAPI, UploadFile, File, Form, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from schema import ATSAnalysisResult
+from resumeanalyzerrag.schema import ATSAnalysisResult
 from resumeanalyzerrag.loader import load_resume
 from resumeanalyzerrag.splitter import split_documents
 from resumeanalyzerrag.vectorstore import create_vectorstore

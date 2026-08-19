@@ -7,5 +7,3 @@ class ATSAnalysisResult(BaseModel):
     missing_skills: List[str] = Field(description="Critical skills missing from the resume.")
     key_strengths: List[str] = Field(description="Top 3-5 key candidate strengths.")
     summary_verdict: str = Field(description="Short executive evaluation summary.")
-
-    

@@ -9,3 +9,5 @@ fastapi
 uvicorn
 python-multipart
 streamlit
+langchain-groq
+python-dotenv

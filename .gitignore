@@ -1,0 +1,16 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Local Vector Database & Files
+chroma_db/
+uploads/
+
+# React / Node
+node_modules/
+dist/
+.env
+
+# OS Files
+.DS_Store

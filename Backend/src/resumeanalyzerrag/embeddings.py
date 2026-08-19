@@ -1,9 +1,12 @@
-from langchain_ollama import OllamaEmbeddings
+from langchain_huggingface import HuggingFaceEmbeddings
 from resumeanalyzerrag.config import EMBEDDING_MODEL
 
 def get_embeddings():
-    embeddings = OllamaEmbeddings(
+    embeddings = HuggingFaceEmbeddings(
         model=EMBEDDING_MODEL
     )
 
     return embeddings
+
+
+
